@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,7 +10,7 @@
     <div>
         <form action="">
             <label for="">Nome:</label>
-            <imput type="text" id="nome" placeholder="digite aqui seu nome" required>
+            <input type="text" id="nome" placeholder="digite aqui seu nome" required>
         </form>
     </div>
     <!--input radio-->
@@ -19,21 +18,27 @@
         <p>escolha o seu time que você torce</p>
         <div>
             <input type="radio" id="nenhum">
-            <label for="nenhum">nenhum</label>
-        </div>
-        <div>
-            <input type="radio" id="nenhum">
-            <label for="nenhum">nenhum</label>
+            <label for="nenhum">Nenhum</label>
         </div>
         <div>
             <input type="radio" id="vasco" name="time">
-            <label for="vasco">vasco</label>
+            <label for="vasco">Vasco</label>
         </div>
         <div>
             <input type="radio" id="bahia" name="time">
-            <label for="bahia">bahia</label>
+            <label for="bahia">Bahia</label>
         </div>
     </div>
-    <button>Enviar</button>
+    <!--select-->
+    <div>
+         <label for="turma">Escolha sua turma:</label>
+         <select name="turma" id="turma">
+            <option disabled selected>Selecione...</option>
+            <option value="01tc">T101TC</option>
+            <option value="01ta">TI01TA</option>
+            <option value="01tb">T101TB</option>
+         </select>
+    </div>
+    <button>Enviar</button>     
 </body>
 </html>
